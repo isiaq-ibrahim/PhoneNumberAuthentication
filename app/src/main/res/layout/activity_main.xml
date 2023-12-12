@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/app_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple Firebase Phone Authentication"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:id="@+id/phoneNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:layout_below="@id/app_description"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="+234xxxxxxxxxx"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/phoneNumberTextView"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/resendOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="Resend OTP"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/phoneNumber"
+        />
+
+    <Button
+        android:id="@+id/generateOTPButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/resendOTP"
+        android:layout_marginTop="20dp"
+        android:text="Generate OTP"
+        />
+
+    <TextView
+        android:id="@+id/verifyOTPTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verify OTP"
+        android:layout_marginStart="20dp"
+        android:layout_below="@id/generateOTPButton"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the six digit code you received"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/verifyOTPTextView"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/verifyOTP"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Verify OTP"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_below="@id/otp"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "994544533551",
+    "project_id": "phone-number-authenticat-dadc9",
+    "storage_bucket": "phone-number-authenticat-dadc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994544533551:android:45c601f86e3750352fc6da",
+        "android_client_info": {
+          "package_name": "com.example.phonenumberauthentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_lITkgrMaUo_HDqJRw6MIUCkDYegid3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
